@@ -80,7 +80,7 @@ while True:
             if matches[best_match_index]:
                 name = known_face_names[best_match_index]
             else:
-                i=i+1;
+                i=i+1
                 #Add the details of the faces appearing for the first time.
                 known_face_names.append(name)
                 known_face_encodings.append(face_encoding)
